@@ -1,6 +1,7 @@
 Feature: Just a test with java and Cucumber
-@Test
-Scenario: Practice Form invalid data
+
+  @Test
+  Scenario: Practice Form invalid data
     Given I open automation practice form
     And I insert "Fulanito" on field "First Name"
     And I insert "fulano" on field "Last Name"

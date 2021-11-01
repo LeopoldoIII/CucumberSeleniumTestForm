@@ -1,6 +1,6 @@
 package steps;
 
-import cucumber.api.java.en.*;
+import io.cucumber.java.en.Given;
 import pages.BrowserPage;
 
 public class BrowserSteps {
